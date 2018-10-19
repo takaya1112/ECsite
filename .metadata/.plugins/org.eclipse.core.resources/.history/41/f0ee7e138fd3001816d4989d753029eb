@@ -1,0 +1,10 @@
+package com.internousdev.templete.dao;
+
+public class BuyItemDAO {
+
+	public BuyItemDTO getBuyItemInfo() {
+		DBConnector dbConnector = new DBConnector();
+		Connection connection = dbConnector.getConnection();
+		BuyItemDTO buyItemDTO = new BuyItemDTO();
+
+}

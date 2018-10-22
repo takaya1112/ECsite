@@ -1,0 +1,11 @@
+package com.internousdev.template.util;
+
+import java.text.SimpleDateFormat;
+
+public class Dateutil {
+	public String getDate(){
+		Date date = new Date();
+		SimpleDateFormat simpledateFormat = new SimpleDateFormat("yyyy/MM/dd HH:MM:SS");
+		return simpledateFormat.format(date);
+	}
+}

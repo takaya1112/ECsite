@@ -1,0 +1,10 @@
+package com.internousdev.template.action;
+
+public class BuyItemAction extends ActionSupport implements SessionAware {
+
+	private int stock;
+	private String pay;
+	public Map<String, Object> session;
+	private String result;
+
+}

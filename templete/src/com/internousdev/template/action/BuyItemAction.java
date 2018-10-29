@@ -13,44 +13,54 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 	public Map<String, Object> session;
 	private String result;
 
-	public String execute(){
+	public String execute() {
 		result = SUCCESS;
 
 		session.put("stock", stock);
 		int intStock = Integer.parseInt(session.get("stock").toString());
 		int intPrice = Integer.parseInt(session.get("buyItem_price").toString());
+
 		session.put("buyItem_price", intStock * intPrice);
 		String payment;
 
-		if(pay.equals("1")){
+		if (pay.equals("1")) {
 
 			payment = "現金払い";
-			session.put("pay",payment);
-		}else{
+			session.put("pay", payment);
+		} else {
+
 			payment = "クレジットカード";
-			session.put("pay",payment);
+			session.put("pay", payment);
+
 		}
 		return result;
+
 	}
-	public int getStock(){
+
+	public int getStock() {
 		return stock;
+
 	}
-	public void setStock(int stock){
+
+	public void setStock(int stock) {
 		this.stock = stock;
 	}
 
-	public String getPay(){
+	public String getPay() {
 		return pay;
 	}
-	public void setPay(String pay){
+
+	public void setPay(String pay) {
 		this.pay = pay;
 	}
 
-	public Map<String,Object>getSession(){
+	public Map<String, Object> getSession() {
 		return session;
 	}
+
 	@Override
-	public void setSession(Map<String,Object>session){
+	public void setSession(Map<String, Object> session) {
 		this.session = session;
 	}
+
 }

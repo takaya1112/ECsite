@@ -1,0 +1,10 @@
+package com.internousdev.ecsite.util;
+
+public class DBConnector {
+	private static String driverName = "com.mysql.jdbc.Drier";
+	private static String url = "jdbc:mysql://localhost/ecsite";
+
+	private static String user = "root";
+	private static String passwortd = "mysql";
+
+}

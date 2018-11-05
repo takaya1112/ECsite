@@ -1,0 +1,8 @@
+package com.internousdev.ecsite.action;
+
+public class BuyItemAction extends ActionSupport impelements SessionAware {
+	public Map<String,Object>session;
+	priavate int count;
+	private String pay;
+
+}

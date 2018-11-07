@@ -68,6 +68,26 @@
 			<result name="success">home.jsp</result>
 		</action>
 
+		<!-- MyPageAction -->
+		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction"
+			method="execute">
+			<result name="success">myPage.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+		<!-- LogoutAction -->
+		<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction"
+			method="execute">
+			<result name="success">home.jsp</result>
+		</action>
+
+		<!-- AdminAction -->
+		<action name="AdminAction" class="com.internousdev.ecsite.action.AdminAction"
+			method="execute">
+			<result name="login">admin.jsp</result>
+			<result name="success">buyItem.jsp</result>
+		</action>
+
 	</package>
 
 </struts>

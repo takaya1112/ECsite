@@ -19,12 +19,15 @@
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.internousdev.ecsite.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dao.UserCreateCompleteDAO"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dao.BuyItemCompleteDAO"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.util.DateUtil"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dto.MyPageDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.MyPageDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>
